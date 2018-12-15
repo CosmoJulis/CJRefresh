@@ -30,10 +30,10 @@ typedef NS_ENUM(NSInteger, CJPullToRefreshViewState) {
 CGFloat const CJPullToRefreshViewHeight = 52;
 
 @interface CJPullToRefreshView () <UIScrollViewDelegate>
-@property (nonatomic,weak)              UIView                      *contentView;
-@property (nonatomic,weak)              UIImageView                 *backgroundImageView;
-@property (nonatomic,weak)              CJPullToRefreshTitleLabel   *titleLabel;
-@property (nonatomic,weak)              UIActivityIndicatorView     *activityIndicatorView;
+@property (nonatomic,strong)              UIView                      *contentView;
+@property (nonatomic,strong)              UIImageView                 *backgroundImageView;
+@property (nonatomic,strong)              CJPullToRefreshTitleLabel   *titleLabel;
+@property (nonatomic,strong)              UIActivityIndicatorView     *activityIndicatorView;
 @property (nonatomic)                   CJPullToRefreshViewState    state;
 @property (nonatomic,readonly)          UIScrollView                *scrollView;
 @property (nonatomic)                   BOOL                        isAnimating;

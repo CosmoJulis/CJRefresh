@@ -18,8 +18,8 @@
 
 @interface CJPullToRefreshView : UIView
 @property (nonatomic,strong) UIImage *backgroundImage;
-@property (nonatomic,weak,readonly) CJPullToRefreshTitleLabel *titleLabel;
-@property (nonatomic,weak,readonly) UIActivityIndicatorView *activityIndicatorView;
+@property (nonatomic,strong,readonly) CJPullToRefreshTitleLabel *titleLabel;
+@property (nonatomic,strong,readonly) UIActivityIndicatorView *activityIndicatorView;
 
 @property (nonatomic,copy) void (^pullToRefreshActionHandler)(void);
 @property (nonatomic,readonly) BOOL isAnimating;
