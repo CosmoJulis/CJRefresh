@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/CosmoJulis/CJRefresh'
   spec.authors      = { 'Cosmo Julis' => 'cosmo.julis@gmail.com' }
   spec.summary      = 'ARC for iOS.'
-  spec.source       = { :git => 'https://github.com/CosmoJulis/CJRefresh.git', :tag => 'v0.1.0' }
+  spec.source       = { :git => 'https://github.com/CosmoJulis/CJRefresh.git', :branch => 'master', :tag => 'v0.1.0' }
   spec.source_files = 'CJRefresh/CJRefresh/*.{h,m}'
   spec.framework    = 'SystemConfiguration'
   spec.ios.framework= 'UIKit'
