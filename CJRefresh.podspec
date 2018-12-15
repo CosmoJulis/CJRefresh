@@ -7,4 +7,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'ARC for iOS.'
   spec.source       = { :git => 'https://github.com/CosmoJulis/CJRefresh.git', :branch => 'master', :tag => spec.version }
   spec.source_files = 'CJRefresh/*.{h,m}'
+  spec.requires_arc = true
 end
